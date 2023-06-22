@@ -4,9 +4,9 @@
 
   burgerSVGTemplate.innerHTML = `
 <svg class="desktop-burger" style="vertical-align:middle;" viewBox="0 0 100 100" width="40" height="40">
-  <rect width="100" height="3"></rect>
-  <rect y="30" width="100" height="3"></rect>
-  <rect y="60" width="100" height="3"></rect>
+  <rect width="100" height="1"></rect>
+  <rect y="30" width="100" height="1"></rect>
+  <rect y="60" width="100" height="1"></rect>
 </svg>
     `;
   template.innerHTML = `
