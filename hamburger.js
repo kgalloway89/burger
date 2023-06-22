@@ -3,10 +3,11 @@
   var burgerSVGTemplate = document.createElement('template');
 
   burgerSVGTemplate.innerHTML = `
-<svg class="desktop-burger" style="vertical-align:middle;" width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 18.75 53.125 V 46.875 H 81.25 V 50 H 18.75 Z M 18.75 71.875 V 65.625 H 81.25 V 69 H 18.75 Z M 18.75 34.375 V 28.125 H 81.25 V 31 H 18.75 Z" fill="black"/>
+<svg class="desktop-burger" style="vertical-align:middle;" viewBox="0 0 100 100" width="40" height="40">
+  <rect width="100" height="20"></rect>
+  <rect y="30" width="100" height="3"></rect>
+  <rect y="60" width="100" height="3"></rect>
 </svg>
-
     `;
   template.innerHTML = `
     <style>
