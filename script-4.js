@@ -79,10 +79,11 @@
 
 
     <slot></slot>
-    <div part="burgerToggle" class="burgerToggle"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M25.6939 30.1128L30.1133 25.6934L74.3075 69.8875L69.888 74.3069L25.6939 30.1128Z" fill="black"/>
-    <path d="M30.1108 74.3071L25.6914 69.8877L69.8856 25.6935L74.305 30.1129L30.1108 74.3071Z" fill="black"/>
-    </svg>
+    <div part="burgerToggle" class="burgerToggle"><svg class="desktop-burger" style="vertical-align:middle;" viewBox="0 0 100 100" width="40" height="40">
+  <rect width="100" height="2"></rect>
+  <rect y="30" width="100" height="2"></rect>
+  <rect y="60" width="100" height="2"></rect>
+</svg>
     </div>
 
 
